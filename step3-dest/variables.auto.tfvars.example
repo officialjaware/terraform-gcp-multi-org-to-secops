@@ -1,0 +1,4 @@
+secops_project_id = "value"
+secops_endpoint = "value"
+source_sink_sa = "value"
+dest_pubsub_topic = "value"

@@ -1,0 +1,4 @@
+google_organization = "value"
+source_project_id = "value"
+dest_project_name = "value"
+dest_pubsub_topic = "value"
