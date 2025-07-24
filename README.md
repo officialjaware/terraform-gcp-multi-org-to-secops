@@ -7,6 +7,8 @@ This repository contains Terraform configurations to facilitate the forwarding o
 ## Architecture
 The architecture for this solution involves three main steps to securely transfer logs from the source GCP organization to the destination Google SecOps instance using Google Cloud Pub/Sub.
 
+<img src="https://github.com/officialjaware/terraform-gcp-multi-org-to-secops/blob/main/diagram.png?raw=true" alt="diagram" width="800" height="300">
+
 ### Destination Organization (SecOps Org) - Step 1: Create Pub/Sub Topic
 
 Logs from the source organization will be sent to a Pub/Sub topic created in a project within the Destination Organization. This topic acts as an intermediary for log ingestion into Google SecOps.
